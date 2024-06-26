@@ -1,5 +1,5 @@
-# v1.0.0
-### Bugfixes
+# v1.1.0
+### Added Rock Paper Scissors.
 
 ## Content
 
@@ -12,7 +12,7 @@
 - Delete files
 - Print TXT files
 - Get modules
-
+- Play games
 ## Commands
 
 - printfile
@@ -32,3 +32,5 @@
 - sorandom.help
 - sorandom.randomint
 - sorandom.randomfloat
+- sogames.help
+- sogames.rps
