@@ -1,5 +1,5 @@
-# v1.2.0
-### Added writing to files, opening files, making files.
+# v1.3.0
+### Added ping command and timer to Fibonacci
 
 ## Content
 
@@ -40,3 +40,5 @@
 - makefile
 - writefile
 - openfile
+- ping
+pi
