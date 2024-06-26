@@ -1,5 +1,5 @@
-# v1.1.0
-### Added Rock Paper Scissors.
+# v1.2.0
+### Added writing to files, opening files, making files.
 
 ## Content
 
@@ -13,6 +13,9 @@
 - Print TXT files
 - Get modules
 - Play games
+- Write to TXT files
+- Make TXT files
+- Open files
 ## Commands
 
 - printfile
@@ -34,3 +37,6 @@
 - sorandom.randomfloat
 - sogames.help
 - sogames.rps
+- makefile
+- writefile
+- openfile
