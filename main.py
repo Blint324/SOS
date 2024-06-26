@@ -161,5 +161,18 @@ while True:
                     print("Enemy chooses Scissors, Tie!")
         else:
             print("Wrong command!")
+    elif cmd == "openfile":
+        openfile_prompt = input("File destination: ")
+        os.system(openfile_prompt)
+        print(f"Opened {openfile_prompt}!")
+    elif cmd == "makefile":
+        makefile_prompt = input("Location and name (example: DRIVER:\FOLDER\FILENAME): ")
+        f = open(f"{makefile_prompt}", "x")
+        f.close()
+    elif cmd == "writefile":
+        writefile_prompt = input("File: ")
+        f = open(f"{writefile_prompt}", "w+")
+        writefile_write = input("Write text: ")
+        f.write(f"{writefile_write}")
     else:
         print("Wrong command!")
