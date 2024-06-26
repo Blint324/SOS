@@ -41,4 +41,3 @@
 - writefile
 - openfile
 - ping
-pi
