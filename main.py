@@ -91,7 +91,8 @@ while True:
               "openfile\n"
               "makefile\n"
               "writefile\n"
-              "date")
+              "date\n"
+              "rename")
     elif cmd == "modules":
         print("SoRandom")
         print("SoGames")
@@ -190,5 +191,9 @@ while True:
         print(f"{ping_length} seconds!")
     elif cmd == "date":
         print(datetime.datetime.now())
+    elif cmd == "rename":
+        rename_prompt = input("File path: ")
+        rename_prompt2 = input("New path: ")
+        os.rename(rename_prompt, rename_prompt2)
     else:
         print("Wrong command!")
