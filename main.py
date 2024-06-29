@@ -88,9 +88,9 @@ while True:
               "modules\n"
               "install\n"
               "ping\n"
-              "openfile"
-              "makefile"
-              "writefile"
+              "openfile\n"
+              "makefile\n"
+              "writefile\n"
               "date")
     elif cmd == "modules":
         print("SoRandom")
