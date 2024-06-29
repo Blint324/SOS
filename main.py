@@ -86,9 +86,12 @@ while True:
               "delfold\n"
               "printfile\n"
               "modules\n"
-              "install\n")
-
-
+              "install\n"
+              "ping\n"
+              "openfile"
+              "makefile"
+              "writefile"
+              "date")
     elif cmd == "modules":
         print("SoRandom")
         print("SoGames")
